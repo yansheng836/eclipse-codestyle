@@ -1,6 +1,6 @@
 /**  
  * @Title Animal.java
- * @Package xyz.yansheng.test
+ * @Package xyz.yansheng.mydoc
  * @Description TODO
  * @author yansheng
  * @date 2019-08-28 20:08:23
@@ -24,11 +24,10 @@ public class Animal {
 
 	/**
 	 * @Title Animal
-	 * @Description TODO
+	 * @Description 动物类的构造方法
 	 * @param name 动物名
 	 */
 	public Animal(String name) {
-		super();
 		this.name = name;
 	}
 
