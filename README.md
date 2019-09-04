@@ -1,20 +1,21 @@
 eclipse-codestyle
 =================
 
-主要介绍了eclipse中java的文档注释(javadoc)和代码风格的设置。<br/>
+主要介绍了Eclipse中Java的文档注释(javadoc)和代码风格的设置。
 
+---
 :sparkles:**推荐关注**阿里巴巴的p3c项目组，推荐理由（优秀的产品）：
 1. [《Java 开发手册》](<https://github.com/alibaba/p3c/blob/master/阿里巴巴Java开发手册（华山版）.pdf>)：本手册以Java开发者为中心视角，总结了一系列的编码规范，包含了编程规约、异常日志、单元测试、安全规约、MySQL数据库、工程结构、设计规约七个维度。
 
-2. [“Java 开发规约IDE插件”](https://github.com/alibaba/p3c)：针对手册规约而制作的一个IDE插件，有Eclipse版本和IDEA版本；用插件扫描代码可以发现你的违约代码，并给出违约规则，以帮助你改正。<br/>
+2. [“Java 开发规约IDE插件”](https://github.com/alibaba/p3c)：针对手册规约而制作的一个IDE插件，有Eclipse版本和IDEA版本；用插件扫描代码可以发现你的违约代码，并给出违约规则，以帮助你改正。
 
-   ---
+---
 
 :link:相关内容：
 
 p3c的github项目地址：<https://github.com/alibaba/p3c>
 
-我之前写过介绍该项目的博客：[阿里巴巴主导的“华山版《Java 开发手册》”简介](<https://blog.csdn.net/weixin_41287260/article/details/92185040>)
+有关p3c项目的介绍：[阿里巴巴主导的“华山版《Java 开发手册》”简介](<https://blog.csdn.net/weixin_41287260/article/details/92185040>)
 
 ---
 
@@ -43,13 +44,13 @@ Table of Contents
 
 - javadoc：Windows-->Preferences-->Java-->Code Style-->Code Templates （导出模板文件名默认为：`codetemplate.xml`）
 
-- java代码风格：Windows-->Preferences-->Java-->Code Style-->Formatter（导出模板文件名一般命名为：`codestyle.xml`）
+- Java代码风格：Windows-->Preferences-->Java-->Code Style-->Formatter（导出模板文件名一般命名为：`codestyle.xml`）
 
 ### 2.XML模板文件的使用（导入和导出）
 
 - 按照上面的内容找到对应位置，`Import……`为导入外部的xml文件，`Export All……`为将自己的模板导出到本地。
 
-- 特别提醒：不要去格式化对应的xml文件，即使它看不来不怎么“友好“！至于格式化后会怎么，会”出乎你的预料“，风格会很奇怪的（亲身体会）。
+- 特别提醒：不要去格式化对应的XML文件，即使它看不来不怎么“友好“！至于格式化后会怎么，会”出乎你的预料“，风格会很奇怪的（亲身体会）。
 
 - 建议：如需导入别人的模板，建议先导出自己的模板，这样如果别人的模板不合自己的习惯，可以再换回来。
 
@@ -58,7 +59,7 @@ Table of Contents
 
 - javadoc：`Shift+Alt+J`。
 
-- java代码格式化：`Shift+Ctrl+F`，注意：如果你有安装搜狗输入法，该快捷键可能会与搜狗输入法的“简繁互换”快捷键冲突，把搜狗输入法的对应快捷键设置为其他快捷键即可。
+- Java代码格式化：`Shift+Ctrl+F`，注意：如果你有安装搜狗输入法，该快捷键可能会与搜狗输入法的“简繁互换”快捷键冲突，把搜狗输入法的对应快捷键设置为其他快捷键即可。
 
 ### 4.生成文档注释的方法
 
@@ -117,4 +118,5 @@ Table of Contents
 
 下图截自《Java开发手册》的：`一、编程规约 >>（八）注释规约`，是该手册中介绍注释规约的主要内容，注意不是全部内容，因为在其它的一些章节也有穿插一些对应的注释规约。
 
-![java开发手册-注释规约](https://github.com/yansheng836/eclipse-codestyle/blob/master/ava开发手册-注释规约.jpg)
+![java开发手册-注释规约](https://s2.ax1x.com/2019/09/04/nZnjMj.jpg)
+
