@@ -57,3 +57,20 @@ javadoc-test
 文件：[my-eclipse-codestyle.xml](https://github.com/yansheng836/javadoc-test/tree/master/codestyle/my-eclipse-codestyle.xml)
 
 
+### 2.p3c项目推荐的模板
+
+#### 2.1  codetemplates.xml
+
+文件：[eclipse-codetemplates-my.xml](https://github.com/yansheng836/javadoc-test/tree/master/codestyle/p3c-formatter/eclipse-codetemplates.xml)
+
+生成文档时需要添加的参数：
+```bash
+-encoding utf-8 -charset utf-8  -tag date:a:date
+```
+
+
+#### 2.2  codestyle.xml
+
+文件：[my-eclipse-codestyle.xml](https://github.com/yansheng836/javadoc-test/tree/master/codestyle/p3c-formatter/eclipse-codestyle.xml)
+
+详见： <https://github.com/alibaba/p3c/tree/master/p3c-formatter>
