@@ -43,7 +43,7 @@ javadoc-test
 
 #### 1.1  codetemplates.xml
 
-文件：[eclipse-codetemplates-my.xml](https://github.com/yansheng836/javadoc-test/tree/master/codestyle/my-eclipse-codetemplates.xml)
+文件：[my-eclipse-codetemplates.xml](https://github.com/yansheng836/javadoc-test/tree/master/codestyle/my-eclipse-codetemplates.xml)
 
 生成文档时需要添加的参数：
 ```bash
